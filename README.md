@@ -10,7 +10,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/facebook/docusaurus/actions/workflows/tests.yml"><img src="https://github.com/facebook/docusaurus/actions/workflows/tests.yml/badge.svg" alt="GitHub Actions status"></a>
+  <a href="https://github.com/paolaarruee/saude-na-tigela/actions/workflows/ci.yml">
+    <img src="https://github.com/paolaarruee/saude-na-tigela/actions/workflows/ci.yml/badge.svg" alt="Status do Build">
+  </a>
 </p>
 
 ## Introduction
@@ -32,9 +34,9 @@ A ideia principal do projeto é promover uma alimentação mais segura e saudáv
 
 Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente de desenvolvimento:
 
-- **Node.js (versão 14 ou superior)**
+- **Node.js** (versão 14 ou superior) [Instale aqui](https://nodejs.org/)
 
-- **Angular CLI (versão mais recente):** Para instalar o Angular CLI globalmente, execute:
+- **Angular CLI** (versão mais recente): Para instalar o Angular CLI globalmente, execute:
 
 ```bash
 npm install -g @angular/cli
