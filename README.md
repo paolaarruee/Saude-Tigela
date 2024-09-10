@@ -1,27 +1,86 @@
-# SaudeTigela
+<div align="center">
+  <h1 align="center">
+    Saúde na Tigela
+    <br />
+    <br />
+    <a href="https://docusaurus.io">
+      <img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus">
+    </a>
+  </h1>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.2.
+<p align="center">
+  <a href="https://github.com/facebook/docusaurus/actions/workflows/tests.yml"><img src="https://github.com/facebook/docusaurus/actions/workflows/tests.yml/badge.svg" alt="GitHub Actions status"></a>
+</p>
 
-## Development server
+## Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Saúde na Tigela é uma aplicação web desenvolvida para auxiliar donos de animais de estimação a monitorar a qualidade dos alimentos que oferecem aos seus pets. O sistema permite que os usuários façam o upload da embalagem dos alimentos (focando na lista de ingredientes) e, utilizando técnicas de reconhecimento de texto (OCR), analisa os ingredientes presentes. O objetivo é identificar possíveis componentes prejudiciais à saúde do animal, como conservantes artificiais (BHT, BHA), corantes e outros aditivos químicos, fornecendo orientações e explicações sobre seus efeitos.
 
-## Code scaffolding
+A ideia principal do projeto é promover uma alimentação mais segura e saudável para os animais de estimação, ajudando seus tutores a tomarem decisões informadas com base nos ingredientes dos alimentos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Running unit tests
+- **Upload de imagens:** Permite que o usuário faça upload de fotos das embalagens de alimentos para animais.
+- **Leitura automática de ingredientes**: Usa OCR para ler a lista de ingredientes diretamente da imagem.
+- **Análise de ingredientes:** Identifica e exibe componentes que podem ser prejudiciais à saúde do animal.
+- **Explicações detalhadas:** Fornece informações sobre os possíveis efeitos nocivos dos ingredientes identificados.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Pré-requisitos
 
-## Running end-to-end tests
+Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente de desenvolvimento:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Node.js (versão 14 ou superior)**
 
-## Further help
+- **Angular CLI (versão mais recente):** Para instalar o Angular CLI globalmente, execute:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install -g @angular/cli
+```
+
+## Instalação
+
+Siga os passos abaixo para configurar o projeto localmente:
+
+- **Clone o repositório:**
+```bash
+git clone https://github.com/paolaarruee/Saude-Tigela.git
+```
+
+- **Navegue até a pasta do projeto:**
+```bash
+cd saude-tigela
+```
+
+- **Instale as dependências:**
+```bash
+npm install
+```
+
+- **Executando o projeto**
+Para rodar o projeto localmente em um servidor de desenvolvimento, execute:
+
+```bash
+ng serve
+```
+Após a execução, abra o navegador e acesse http://localhost:4200/ para visualizar a aplicação.
+
+- **Gerar build de produção**
+Para gerar uma versão otimizada do projeto para produção, execute:
+
+```bash
+ng build
+```
+Os arquivos otimizados serão gerados na pasta dist/.
+
+- **Rodando os testes**
+Testes unitários
+O projeto utiliza Karma e Jasmine para testes unitários. Para rodar os testes, utilize:
+```bash
+ng test
+```
+Isso executará os testes e exibirá os resultados diretamente no terminal.
+
+
