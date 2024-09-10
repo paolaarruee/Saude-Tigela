@@ -4,15 +4,13 @@
     <br />
     <br />
     <a href="https://docusaurus.io">
-      <img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus">
+      <img  alt="teste">
     </a>
   </h1>
 </div>
 
 <p align="center">
-  <a href="https://github.com/paolaarruee/saude-na-tigela/actions/workflows/ci.yml">
-    <img src="https://github.com/paolaarruee/saude-na-tigela/actions/workflows/ci.yml/badge.svg" alt="Status do Build">
-  </a>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 
 ## Introduction
